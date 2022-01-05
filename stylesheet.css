@@ -10,13 +10,14 @@ h1{font-family: 'Merriweather Sans', sans-serif;
 
 
 
-/* ------------------section 1------------------ */
+/* --------------------------section 1----------------------------- */
 .section1{
     display: flex;
+    margin-bottom: 50px;
 }
 
 
-/* -----------Top Benar section------------------ */
+/* -----------Top Benar section------------- */
 .background-img{
     width: 100%;
     padding: 1%;
@@ -26,32 +27,32 @@ h1{font-family: 'Merriweather Sans', sans-serif;
 .background-img img{width: 100%;
     height: 500px;
 }
-/* -----------Top Benar section End-------- */
+/* ---------Top Benar section End------- */
 
 
 
 #section1-heading-color{color: darkorange; }
 
 
-/* --section1-div1-- */
+/* --section1-div1---- */
 .section-div1{
     width: 50%;
     text-align: justify;
-    padding: 1%;
-    
+    padding: 1%;  
 }
 
 
-/* --section1 Hire me Button-- */
+/* ---section1 Hire me Button--- */
 #section-HIRE-ME-button{background-image: linear-gradient(#ec6f66, #f3a183);
-    font-weight: 400;
+    font-weight: 700;
     color: white;
     border-radius: 4px;
     width: 33px;
-    padding: 2px 25px;  
+    padding: 2px 25px; 
+    text-decoration: none; 
 }
 
-/* --section1-image-- */
+/* ---section1-image--- */
 .section1-img{
     width: 50%;
     padding: 4%;
@@ -61,4 +62,42 @@ h1{font-family: 'Merriweather Sans', sans-serif;
     width: 90%;
 }
 
-/* ------------------ section 1 End/Closed ------------------ */
+/* ----------------- section 1 End/Closed --------------- */
+
+
+
+
+
+
+
+/* --------------------------section 2----------------------------- */
+.section2{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+/* ---section2-image--- */
+.section2-img{
+    width: 50%;
+    padding: 0px;
+}
+.section2-img img{
+    width: 80%;
+}
+
+
+/* ---section2-div2--- */
+.section2-div2{
+    width: 50%;
+    text-align: justify;
+}
+
+
+#DOWNLOAD-RESUME-Button{background-image: linear-gradient(#ec6f66, #f3a183);
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 4px 25px;
+    border-radius: 4px;
+    
+}

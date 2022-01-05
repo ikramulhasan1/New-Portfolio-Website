@@ -1,0 +1,32 @@
+.body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+
+/* --section 1-- */
+.section1{
+
+}
+#section1-heading-color{color: darkorange; }
+
+
+/* --section1-div1-- */
+.section-div1{
+    width: 50%;
+    text-align: justify;
+    
+}
+
+#section-HIRE-ME-button{background-image: linear-gradient(#ec6f66, #f3a183);
+    font-weight: 400;
+    color: white;
+    border-radius: 4px;
+    width: 33px;
+}
+
+/* --section1-img-- */
+.section1-img{
+    width: 50%;
+}
+.section1-img img{
+    width: 80%;
+}

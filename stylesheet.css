@@ -1,6 +1,7 @@
 .body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
-    margin: 0px;
+    
+
 }
 
 h1{font-family: 'Merriweather Sans', sans-serif;
@@ -10,14 +11,14 @@ h1{font-family: 'Merriweather Sans', sans-serif;
 
 
 
-/* --------------------------section 1----------------------------- */
-.section1{
+/* ------------------------section 1--------------------------- */
+.flexible-container{
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
 }
 
 
-/* -----------Top Benar section------------- */
+/* --------Top Benar section--------- */
 .background-img{
     width: 100%;
     padding: 1%;
@@ -27,14 +28,15 @@ h1{font-family: 'Merriweather Sans', sans-serif;
 .background-img img{width: 100%;
     height: 500px;
 }
-/* ---------Top Benar section End------- */
 
 
 
+/* --------Section1 heading color-------- */
 #section1-heading-color{color: darkorange; }
 
 
-/* --section1-div1---- */
+
+/* -----section1-div1------ */
 .section-div1{
     width: 50%;
     text-align: justify;
@@ -52,7 +54,8 @@ h1{font-family: 'Merriweather Sans', sans-serif;
     text-decoration: none; 
 }
 
-/* ---section1-image--- */
+
+/* -----section1-image----- */
 .section1-img{
     width: 50%;
     padding: 4%;
@@ -61,7 +64,6 @@ h1{font-family: 'Merriweather Sans', sans-serif;
 .section1-img img{
     width: 90%;
 }
-
 /* ----------------- section 1 End/Closed --------------- */
 
 
@@ -73,7 +75,7 @@ h1{font-family: 'Merriweather Sans', sans-serif;
 /* --------------------------section 2----------------------------- */
 .section2{
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
 }
 
 /* ---section2-image--- */
@@ -93,11 +95,47 @@ h1{font-family: 'Merriweather Sans', sans-serif;
 }
 
 
+/* -----Section2 DOWNLOAD RESUME Button----- */
 #DOWNLOAD-RESUME-Button{background-image: linear-gradient(#ec6f66, #f3a183);
     color: white;
     font-weight: 700;
     text-decoration: none;
     padding: 4px 25px;
-    border-radius: 4px;
+    border-radius: 4px;   
+}
+/* ----------------- section 1 End/Closed --------------- */
+
+
+
+
+
+/* --------------------------section 3----------------------------- */
+.section-div11{
+    border-left: 5px solid rgb(255, 119, 77);
+    width: 50%;
+    margin: 3%;
+    padding: 15px;
+    box-shadow: 10px 10px 18px #b4b4b4;
+}
+
+
+.section3div1h3{
+    color: darkorange;
+}
+
+
+.section3-div1{
+    border-left: 5px solid rgb(64, 64, 255);
+    width: 50%;
+    margin: 3%;
+    padding: 15px;
+    box-shadow: 10px 10px 18px #b4b4b4;
     
+}
+
+
+footer{
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
 }
